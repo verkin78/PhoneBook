@@ -24,4 +24,11 @@ public class Past {
         for (Map.Entry<String, String> contact: phoneBook.entrySet()) {
             System.out.println("Контакт " + contact.getKey() + ": " + contact.getValue());
         }*/
+
+    /*рандомные строки
+            майн
+    getString(JOptionPane.showInputDialog(null, "Введите значение:"),
+        Integer.valueOf(JOptionPane.showInputDialog(null, "Введите значение:")));
+    под майном*/
+
 }
