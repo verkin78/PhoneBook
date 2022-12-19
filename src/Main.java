@@ -50,10 +50,26 @@ public class Main {
                 maps.put(s, i);
                 JOptionPane.showMessageDialog(null, maps);
             }
-
         }
     }
 
+    public static void doWork() {
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "Котики");
+        map.put(2, "Ребёнок");
+        map.put(3, "Погода");
+        map.put(4, "Горы и море");
+        map.put(5, "Сокакен");
+        map.put(6, "Маисовыйполоз");
+        map.put(7, "Любимый город");
+        map.put(8, "Шуши - шиншиллы");
+        map.put(9, "Секрет");
+        map.put(10, "Любовь навсегда");
 
-
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println("Ключ - " + entry.getKey() + " Значение - " + entry.getValue());
+        }
+    }
 }
+
+
