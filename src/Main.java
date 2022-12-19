@@ -26,7 +26,8 @@ public class Main {
         phoneBook.put("Ильин Илья", "8-924-657-6880");
         phoneBook.put("Танина Татьяна", "8-927-657-6883");
 
-        System.out.println(phoneBook.keySet());
-        System.out.println(phoneBook.values());
+        for (Map.Entry<String, String> contact: phoneBook.entrySet()) {
+            System.out.println("Контакт " + contact.getKey() + ": " + contact.getValue());
+        }
     }
 }
